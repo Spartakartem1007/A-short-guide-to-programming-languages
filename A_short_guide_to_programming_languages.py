@@ -390,7 +390,7 @@ if a == '2':
     if b == '1':
         while True:
             print('Choose a topic')
-            c = input('print() = 1/input() = 2/While = 3/if = 4/for = 5/break = 6/ end = 7/count = 8/ int() = 9/ and-or = 10')
+            c = input('print() = 1/input() = 2/While = 3/if = 4/for = 5/break = 6/ end = 7/count = 8/ int() = 9/ and-or = 10/practical tasks = practice')
             if c == '1':
                 print('print() — Outputting information to the screen')
                 print('What is it for? To make the program display text, numbers, or calculation results.')
