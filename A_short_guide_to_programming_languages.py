@@ -5,8 +5,8 @@ if a == '1':
     b = input('Python = 1/C++ = 2/JavaScript = 3')
     if b == '1':
         while True:
-            print('Выберите тему')
-            c = input('print() = 1/input() = 2/While = 3/if = 4/for = 5/break = 6/ end = 7/count = 8/ int() = 9/ and-or = 10')
+            print('Выберите тему: ')
+            c = input('print() = 1/input() = 2/While = 3/if = 4/for = 5/break = 6/ end = 7/count = 8/ int() = 9/ and-or = 10/ задачи на праткику - practice')
             if c == '1':
                 print('print() — Вывод информации на экран')
                 print('Зачем нужен? Чтобы программа показывала текст, числа или результаты вычислений.')
@@ -182,6 +182,48 @@ if a == '1':
                     print('1')
                 else:
                     print('-1')
+            if c == 'practice':
+                print('Выберите задачу')
+                print('Примечание: решать задачу нужно в отдельной программе (например Pycharm или VS code)')
+                k = input('калькулятор суммы двух чисел = 1/проверка возраста = 2/счетчик числа 1 - n = 3/проверка пароля = 4 ')
+                if k == '1':
+                    print('КАЛЬКУЛЯТОР СУММЫ ДВУХ ЧИСЕЛ')
+                    print('Задание: ')
+                    print('Напишите программу, которая запрашивает у пользователя два целых числа и выводит их сумму.')
+                    input('Для проверки и получениия готового кода нажмите Enter')
+                    print('num1 = int(input("Введи первое число: "))')
+                    print('num2 = int(input("Введи второе число: "))')
+                    print('result = num1 + num2')
+                    print('print("Сумма:", result)')
+                if k == '2':
+                    print('ПРОВЕРКА ВОЗРАСТА')
+                    print('Задание:')
+                    print('Создайте программу, которая определяет, совершеннолетний ли пользователь на основе введённого возраста.')
+                    input('Для проверки и получениия готового кода нажмите Enter')
+                    print('age = int(input("Сколько тебе лет? "))')
+                    print('if age >= 18:')
+                    print('     print("Ты совершеннолетний")')
+                    print('else:')
+                    print('     print("Ты несовершеннолетний")')
+                if k == '3':
+                    print('СЧЁТЧИК ОТ 1 ДО N')
+                    print('Задание:')
+                    print('Выведите все числа от 1 до N, где N вводит пользователь.')
+                    input('Для проверки и получениия готового кода нажмите Enter')
+                    print('n = int(input("Введи число: "))')
+                    print('for i in range(1, n + 1):')
+                    print('     print(i)')
+                if k == '4':
+                    print('ПРОВЕРКА ПАРОЛЯ')
+                    print('Задание:')
+                    print('Реализуйте простую проверку пароля — доступ разрешён только при вводе правильного пароля.')
+                    input('Для проверки и получениия готового кода нажмите Enter')
+                    print('password = "12345"')
+                    print('user_input = input("Введи пароль: ")')
+                    print('if user_input == password:')
+                    print('     print("Доступ разрешён")')
+                    print('else:')
+                    print('     print("Неверный пароль")')
             else:
                 print('ERROR')
     if b == '2':
@@ -538,6 +580,49 @@ if a == '2':
                     print('1')
                 else:
                     print('-1')
+            if c == 'practice':
+                print('Select a task')
+                print('Note: solve the task in a separate program (e.g., PyCharm or VS Code)')
+                k = input('Sum calculator for two numbers = 1 / age verification = 2 / counter from 1 to n = 3 / password check = 4 ')
+                if k == '1':
+                    print('SUM CALCULATOR FOR TWO NUMBERS')
+                    print('Task:')
+                    print('Write a program that asks the user for two integers and prints their sum.')
+                    input('Press Enter to check and get the ready code')
+                    print('num1 = int(input("Enter the first number: "))')
+                    print('num2 = int(input("Enter the second number: "))')
+                    print('result = num1 + num2')
+                    print('print("Sum:", result)')
+                if k == '2':
+                    print('AGE VERIFICATION')
+                    print('Task:')
+                    print('Create a program that determines whether the user is an adult based on their entered age.')
+                    input('Press Enter to check and get the ready code')
+                    print('age = int(input("How old are you? "))')
+                    print('if age >= 18:')
+                    print('     print("You are an adult")')
+                    print('else:')
+                    print('     print("You are a minor")')
+                if k == '3':
+                    print('COUNTER FROM 1 TO N')
+                    print('Task:')
+                    print('Print all numbers from 1 to N, where N is entered by the user.')
+                    input('Press Enter to check and get the ready code')
+                    print('n = int(input("Enter a number: "))')
+                    print('for i in range(1, n + 1):')
+                    print('     print(i)')
+                if k == '4':
+                    print('PASSWORD CHECK')
+                    print('Task:')
+                    print(
+                        'Implement a simple password check — access is allowed only if the correct password is entered.')
+                    input('Press Enter to check and get the ready code')
+                    print('password = "12345"')
+                    print('user_input = input("Enter password: ")')
+                    print('if user_input == password:')
+                    print('     print("Access granted")')
+                    print('else:')
+                    print('     print("Wrong password")')
             else:
                 print('ERROR')
     if b == '2':
