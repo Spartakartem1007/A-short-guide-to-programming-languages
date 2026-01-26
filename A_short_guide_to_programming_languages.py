@@ -1,12 +1,12 @@
 print("Select a language/Выберите язык")
-a = input('Eng=2/Рус=1:')
+a = input('Eng=2/Рус=1: ')
 if a == '1':
-    print('Выберите язык программирования, азы которого вы хотите узнать')
+    print('Выберите язык программирования, азы которого вы хотите узнать ')
     b = input('Python = 1/C++ = 2/JavaScript = 3')
     if b == '1':
         while True:
             print('Выберите тему: ')
-            c = input('print() = 1/input() = 2/While = 3/if = 4/for = 5/break = 6/ end = 7/count = 8/ int() = 9/ and-or = 10/ задачи на праткику - practice')
+            c = input('print() = 1/input() = 2/While = 3/if = 4/for = 5/break = 6/ end = 7/count = 8/ int() = 9/ and-or = 10/ задачи на праткику - practice ')
             if c == '1':
                 print('print() — Вывод информации на экран')
                 print('Зачем нужен? Чтобы программа показывала текст, числа или результаты вычислений.')
@@ -183,9 +183,9 @@ if a == '1':
                 else:
                     print('-1')
             if c == 'practice':
-                print('Выберите задачу')
+                print('Выберите задачу: ')
                 print('Примечание: решать задачу нужно в отдельной программе (например Pycharm или VS code)')
-                k = input('калькулятор суммы двух чисел = 1/проверка возраста = 2/счетчик числа 1 - n = 3/проверка пароля = 4 ')
+                k = input('калькулятор суммы двух чисел = 1/проверка возраста = 2/счетчик числа 1 - n = 3/проверка пароля = 4/перевод в минуты = 5/площадь прямоугольника = 6 ')
                 if k == '1':
                     print('КАЛЬКУЛЯТОР СУММЫ ДВУХ ЧИСЕЛ')
                     print('Задание: ')
@@ -224,11 +224,28 @@ if a == '1':
                     print('     print("Доступ разрешён")')
                     print('else:')
                     print('     print("Неверный пароль")')
+                if k == '5':
+                    print('ПЕРЕВОД ЧАСОВ В МИНУТЫ')
+                    print('Условие задачи:')
+                    print('Напишите программу, которая переводит часы в минуты.')
+                    input('Для проверки и получениия готового кода нажмите Enter')
+                    print('hours = int(input("Сколько часов? "))')
+                    print('minutes = hours * 60')
+                    print('print("Это",minutes, "минут")')
+                if k == '6':
+                    print('КАЛЬКУЛЯТОР ПЛОЩАДИ ПРЯМОУГОЛЬНИКА')
+                    print('Условие задачи:')
+                    print('Напишите программу для расчета площади прямоугольника.')
+                    input('Для проверки и получениия готового кода нажмите Enter')
+                    print('length = float(input("Длина прямоугольника: "))')
+                    print('width = float(input("Ширина прямоугольника: "))')
+                    print('area = length * width')
+                    print('print("Площадь:", area)')
             else:
                 print('ERROR')
     if b == '2':
         while True:
-            print('Выберите тему')
+            print('Выберите тему: ')
             c = input('БАЗОВЫЙ СИНТАКСИС = 1/ПЕРЕМЕННЫЕ И ТИПЫ ДАННЫХ = 2/ВВОД ДАННЫХ = 3/ #include = 4')
             if c == '1':
                 print('БАЗОВЫЙ СИНТАКСИС')
@@ -296,8 +313,8 @@ if a == '1':
 #В таком виде код мне нравится больше
     if b == '3':
         while True:
-            print('Выберите тему')
-            c = input('console.log() = 1/let / const = 2/prompt() / alert() = 3/ if - else = 4/for = 5')
+            print('Выберите тему: ')
+            c = input('console.log() = 1/let / const = 2/prompt() / alert() = 3/ if - else = 4/for = 5/ document.getElementById() = 6')
             if c == '1':
                 print('console.log() — ВЫВОД ИНФОРМАЦИИ')
                 print('Что это: Самая первая команда, которую изучают в JavaScript.')
@@ -379,17 +396,40 @@ if a == '1':
                 print('Не путать с for в C++/Python — синтаксис другой')
                 print('Чаще используется для массивов, чем while')
                 print('Можно прервать break или пропустить итерацию continue')
+            if c == '6':
+                print('document.getElementById() в JavaScript')
+                print('Что:')
+                print('Команда для поиска элемента на веб-странице по его уникальному ID.')
+                print('Зачем:')
+                print('Находить элементы HTML-страницы')
+                print('Менять их содержимое, стили, поведение')
+                print('Делать страницу интерактивной')
+                print('Как работает:')
+                print('В HTML элементу дают ID: <div id="myId">')
+                print('В JavaScript ищут элемент: getElementById("myId")')
+                print('После этого можно управлять элементом')
+                print('Что можно делать:')
+                print('Менять текст внутри элемента')
+                print('Изменять цвет, размер, видимость')
+                print('Добавлять реакции на клики')
+                print('Проверять данные форм')
+                print('Важно:')
+                print('ID должен быть уникальным на странице')
+                print('Если элемент не найден — возвращает null')
+                print('Регистр букв имеет значение')
+                print('Почему учить первым:')
+                print('Это основа для создания интерактивных сайтов. Без этой команды JavaScript не может взаимодействовать с элементами страницы.')
             else:
                 print('ERROR')
     else:
         print('ERROR')
 
 if a == '2':
-    print('Choose a programming language you want to learn the basics of')
+    print('Choose a programming language you want to learn the basics of ')
     b = input('Python = 1/C++ = 2/JavaScript = 3')
     if b == '1':
         while True:
-            print('Choose a topic')
+            print('Choose a topic: ')
             c = input('print() = 1/input() = 2/While = 3/if = 4/for = 5/break = 6/ end = 7/count = 8/ int() = 9/ and-or = 10/practical tasks = practice')
             if c == '1':
                 print('print() — Outputting information to the screen')
@@ -581,9 +621,9 @@ if a == '2':
                 else:
                     print('-1')
             if c == 'practice':
-                print('Select a task')
+                print('Select a task: ')
                 print('Note: solve the task in a separate program (e.g., PyCharm or VS Code)')
-                k = input('Sum calculator for two numbers = 1 / age verification = 2 / counter from 1 to n = 3 / password check = 4 ')
+                k = input('Sum calculator for two numbers = 1 / age verification = 2 / counter from 1 to n = 3 / password check = 4/conversion to minutes = 5/ rectangle area = 6 ')
                 if k == '1':
                     print('SUM CALCULATOR FOR TWO NUMBERS')
                     print('Task:')
@@ -623,11 +663,28 @@ if a == '2':
                     print('     print("Access granted")')
                     print('else:')
                     print('     print("Wrong password")')
+                if k == '5':
+                    print('CONVERT HOURS TO MINUTES')
+                    print('Task condition:')
+                    print('Write a program that converts hours to minutes.')
+                    input('Press Enter to check and get the ready code')
+                    print('hours = int(input("How many hours? "))')
+                    print('minutes = hours * 60')
+                    print('print("That is", minutes, "minutes")')
+                if k == '6':
+                    print('RECTANGLE AREA CALCULATOR')
+                    print('Task condition:')
+                    print('Write a program to calculate the area of a rectangle.')
+                    input('Press Enter to check and get the ready code')
+                    print('length = float(input("Rectangle length: "))')
+                    print('width = float(input("Rectangle width: "))')
+                    print('area = length * width')
+                    print('print("Area:", area)')
             else:
                 print('ERROR')
     if b == '2':
         while True:
-            print('Choose a topic')
+            print('Choose a topic: ')
             c = input('BASIC SYNTAX = 1/VARIABLES AND DATA TYPES = 2/DATA INPUT = 3/#include = 4')
             if c == '1':
                 print('BASIC SYNTAX')
@@ -690,8 +747,8 @@ if a == '2':
                 print('ERROR')
     if b == '3':
         while True:
-            print('Choose a topic')
-            c = input('console.log() = 1/let / const = 2/prompt() / alert() = 3/if - else = 4/ for = 5')
+            print('Choose a topic: ')
+            c = input('console.log() = 1/let / const = 2/prompt() / alert() = 3/if - else = 4/ for = 5/document.getElementById() = 6 ')
             if c == '1':
                 print('console.log() — OUTPUT INFORMATION')
                 print('What it is: The very first command learned in JavaScript.')
@@ -773,6 +830,29 @@ if a == '2':
                 print('Do not confuse with for in C++/Python — the syntax is different')
                 print('More commonly used for arrays than while')
                 print('Can be interrupted with break or skip an iteration with continue')
+            if c == '6':
+                print('document.getElementById() in JavaScript')
+                print('What:')
+                print('A command to find an element on a web page by its unique ID.')
+                print('Why:')
+                print('To locate HTML page elements')
+                print('To change their content, styles, behavior')
+                print('To make the page interactive')
+                print('How it works:')
+                print('Give an element an ID in HTML: <div id="myId">')
+                print('Find the element in JavaScript: getElementById("myId")')
+                print('Then you can control the element')
+                print('What you can do:')
+                print('Change the text inside an element')
+                print('Modify color, size, visibility')
+                print('Add click event handlers')
+                print('Validate form data')
+                print('Important:')
+                print('ID must be unique on the page')
+                print('Returns null if the element is not found')
+                print('Case-sensitive')
+                print('Why learn it first:')
+                print('This is the foundation for creating interactive websites. Without this command, JavaScript cannot interact with page elements.')
             else:
                 print('ERROR')
     else:
