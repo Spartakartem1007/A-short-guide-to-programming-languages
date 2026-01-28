@@ -6,7 +6,7 @@ if a == '1':
     if b == '1':
         while True:
             print('Выберите тему: ')
-            c = input('print() = 1/input() = 2/While = 3/if = 4/for = 5/break = 6/ end = 7/count = 8/ int() = 9/ and-or = 10/ задачи на праткику - practice ')
+            c = input('print() = 1/input() = 2/While = 3/if = 4/for = 5/break = 6/ end = 7/count = 8/ int() = 9/ and-or = 10/ задачи на праткику - practice/str() = 11 ')
             if c == '1':
                 print('print() — Вывод информации на экран')
                 print('Зачем нужен? Чтобы программа показывала текст, числа или результаты вычислений.')
@@ -241,12 +241,34 @@ if a == '1':
                     print('width = float(input("Ширина прямоугольника: "))')
                     print('area = length * width')
                     print('print("Площадь:", area)')
+            if c == '11':
+                print('str() в Python')
+                print('Что:')
+                print('Функция для преобразования любых данных в строку (текст).')
+                print('Зачем:')
+                print('Превращать числа в текст: str(42) → "42"')
+                print('Преобразовывать другие типы данных для вывода')
+                print('Склеивать текст с числами')
+                print('Сохранять данные в файл')
+                print('Как работает:')
+                print('Берёт любой объект и возвращает его текстовое представление.')
+                print('Примеры использования:')
+                print('Число в строку: str(100) → "100"')
+                print('Список в строку: str([1, 2, 3]) → "[1, 2, 3]"')
+                print('Для вывода: "Мой возраст: " + str(25)')
+                print('Важно:')
+                print('Обратная функция к int() (из текста в число)')
+                print('Не путать со срезами строк [:]')
+                print('Все данные от input() уже являются строками')
+                print('Почему учить:')
+                print('Без str() нельзя выводить числа вместе с текстом — программа упадёт с ошибкой.')
+
             else:
                 print('ERROR')
     if b == '2':
         while True:
             print('Выберите тему: ')
-            c = input('БАЗОВЫЙ СИНТАКСИС = 1/ПЕРЕМЕННЫЕ И ТИПЫ ДАННЫХ = 2/ВВОД ДАННЫХ = 3/ #include = 4')
+            c = input('БАЗОВЫЙ СИНТАКСИС = 1/ПЕРЕМЕННЫЕ И ТИПЫ ДАННЫХ = 2/ВВОД ДАННЫХ = 3/ #include = 4/ cout = 5')
             if c == '1':
                 print('БАЗОВЫЙ СИНТАКСИС')
                 print('Каждая программа на C++ состоит из обязательных элементов.')
@@ -304,6 +326,29 @@ if a == '1':
                 print('<string> — работа со строками')
                 print('<cmath> — математические функции')
                 print('<vector> — динамические массивы')
+            if c == '5':
+                print('cout в C++')
+                print('Что:')
+                print('Основная команда для вывода информации на экран (в консоль).')
+                print('Зачем:')
+                print('Показывать текст пользователю')
+                print('Выводить результаты вычислений')
+                print('Отображать значения переменных')
+                print('Выводить сообщения об ошибках')
+                print('Основные возможности:')
+                print('Текст: в двойных кавычках "Привет"')
+                print('Переменные: любых типов (числа, символы, строки)')
+                print('Специальные символы:')
+                print('endl — перенос строки')
+                print('"\n" — тоже перенос строки')
+                print('"\t" — табуляция (отступ)')
+                print('Важно:')
+                print('Требует #include <iostream> в начале программы')
+                print('Требует using namespace std; (или писать std::cout)')
+                print('cin — для ввода, cout — для вывода (не путать!)')
+                print('Почему учить первым:')
+                print('Без cout программа не может ничего показать пользователю — работает, но молчит.')
+                print('Это как глаза и рот программы.')
             else:
                 print('ERROR')
 #Тут у человека смотрящего код может созреть вопрос почему так много print().
@@ -430,7 +475,7 @@ if a == '2':
     if b == '1':
         while True:
             print('Choose a topic: ')
-            c = input('print() = 1/input() = 2/While = 3/if = 4/for = 5/break = 6/ end = 7/count = 8/ int() = 9/ and-or = 10/practical tasks = practice')
+            c = input('print() = 1/input() = 2/While = 3/if = 4/for = 5/break = 6/ end = 7/count = 8/ int() = 9/ and-or = 10/practical tasks = practice/str() = 11')
             if c == '1':
                 print('print() — Outputting information to the screen')
                 print('What is it for? To make the program display text, numbers, or calculation results.')
@@ -680,12 +725,33 @@ if a == '2':
                     print('width = float(input("Rectangle width: "))')
                     print('area = length * width')
                     print('print("Area:", area)')
+            if c == '11':
+                print('str() in Python')
+                print('What:')
+                print('A function for converting any data to a string (text).')
+                print('Why:')
+                print('Convert numbers to text: str(42) → "42"')
+                print('Convert other data types for output')
+                print('Concatenate text with numbers')
+                print('Save data to a file')
+                print('How it works:')
+                print('Takes any object and returns its textual representation.')
+                print('Usage examples:')
+                print('Number to string: str(100) → "100"')
+                print('List to string: str([1, 2, 3]) → "[1, 2, 3]"')
+                print('For output: "My age: " + str(25)')
+                print('Important:')
+                print('Inverse function of int() (from text to number)')
+                print('Do not confuse with string slicing [:]')
+                print('All data from input() are already strings')
+                print('Why learn it:')
+                print('Without str(), you cannot output numbers together with text — the program will crash with an error.')
             else:
                 print('ERROR')
     if b == '2':
         while True:
             print('Choose a topic: ')
-            c = input('BASIC SYNTAX = 1/VARIABLES AND DATA TYPES = 2/DATA INPUT = 3/#include = 4')
+            c = input('BASIC SYNTAX = 1/VARIABLES AND DATA TYPES = 2/DATA INPUT = 3/#include = 4/cout = 5')
             if c == '1':
                 print('BASIC SYNTAX')
                 print('Every C++ program consists of required elements.')
@@ -743,6 +809,29 @@ if a == '2':
                 print('<string> — string manipulation')
                 print('<cmath> — mathematical functions')
                 print('<vector> — dynamic arrays')
+            if c == '5':
+                print('cout in C++')
+                print('What:')
+                print('The primary command for outputting information to the screen (console).')
+                print('Why:')
+                print('Display text to the user')
+                print('Output calculation results')
+                print('Show variable values')
+                print('Display error messages')
+                print('Main features:')
+                print('Text: in double quotes "Hello"')
+                print('Variables: of any type (numbers, characters, strings)')
+                print('Special characters:')
+                print('endl — line break')
+                print('"\n" — also a line break')
+                print('"\t" — tab (indentation)')
+                print('Important:')
+                print('Requires #include <iostream> at the beginning of the program')
+                print('Requires using namespace std; (or write std::cout)')
+                print('cin — for input, cout — for output (do not confuse!)')
+                print('Why learn it first:')
+                print('Without cout, a program cannot show anything to the user — it works, but stays silent.')
+                print('It is like the eyes and mouth of the program.')
             else:
                 print('ERROR')
     if b == '3':
