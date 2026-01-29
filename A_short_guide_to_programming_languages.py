@@ -268,7 +268,7 @@ if a == '1':
     if b == '2':
         while True:
             print('Выберите тему: ')
-            c = input('БАЗОВЫЙ СИНТАКСИС = 1/ПЕРЕМЕННЫЕ И ТИПЫ ДАННЫХ = 2/ВВОД ДАННЫХ = 3/ #include = 4/ cout = 5')
+            c = input('БАЗОВЫЙ СИНТАКСИС = 1/ПЕРЕМЕННЫЕ И ТИПЫ ДАННЫХ = 2/ВВОД ДАННЫХ = 3/ #include = 4/ cout = 5/cin = 6')
             if c == '1':
                 print('БАЗОВЫЙ СИНТАКСИС')
                 print('Каждая программа на C++ состоит из обязательных элементов.')
@@ -349,6 +349,30 @@ if a == '1':
                 print('Почему учить первым:')
                 print('Без cout программа не может ничего показать пользователю — работает, но молчит.')
                 print('Это как глаза и рот программы.')
+            if c == '6':
+                print('cin в C++')
+                print('Что:')
+                print('Основная команда для получения данных от пользователя (ввод с клавиатуры).')
+                print('Зачем:')
+                print('Спрашивать у пользователя информацию')
+                print('Получать числа, текст, символы')
+                print('Создавать интерактивные программы')
+                print('Настраивать поведение программы "на лету"')
+                print('Как работает:')
+                print('Используется с оператором >> для получения данных:')
+                print('Что можно вводить:')
+                print('Целые числа: int, short, long')
+                print('Дробные числа: float, double')
+                print('Символы: char')
+                print('Строки: string (но до первого пробела)')
+                print('Важно:')
+                print('Требует #include <iostream>')
+                print('cin — для ввода, cout — для вывода')
+                print('Для строк с пробелами используйте getline(cin, строка)')
+                print('После cin >> число может оставаться символ новой строки в буфере')
+                print('Почему учить сразу после cout:')
+                print('Без cin программа может только показывать информацию, но не получать её от пользователя. ')
+                print(' Это делает программы динамичными и полезными.')
             else:
                 print('ERROR')
 #Тут у человека смотрящего код может созреть вопрос почему так много print().
@@ -359,7 +383,7 @@ if a == '1':
     if b == '3':
         while True:
             print('Выберите тему: ')
-            c = input('console.log() = 1/let / const = 2/prompt() / alert() = 3/ if - else = 4/for = 5/ document.getElementById() = 6')
+            c = input('console.log() = 1/let / const = 2/prompt() / alert() = 3/ if - else = 4/for = 5/ document.getElementById() = 6/addEventListener() = 7')
             if c == '1':
                 print('console.log() — ВЫВОД ИНФОРМАЦИИ')
                 print('Что это: Самая первая команда, которую изучают в JavaScript.')
@@ -464,6 +488,20 @@ if a == '1':
                 print('Регистр букв имеет значение')
                 print('Почему учить первым:')
                 print('Это основа для создания интерактивных сайтов. Без этой команды JavaScript не может взаимодействовать с элементами страницы.')
+            if c == '7':
+                print('addEventListener() в JavaScript')
+                print('Что:')
+                print('Привязка реакций к действиям пользователя.')
+                print('Зачем:')
+                print('Делать сайты интерактивными, реагирующими на клики и другие действия.')
+                print('Как:')
+                print('"Слушатель" ждёт события (клик, нажатие клавиши) и запускает функцию.')
+                print('События:')
+                print('Клик мыши, наведение, нажатие клавиши, отправка формы.')
+                print('Важно:')
+                print('Лучше старого способа onclick, можно добавлять несколько реакций на одно действие.')
+                print('Зачем учить:')
+                print('Без событий сайт — просто картинка. С ними — живое приложение.')
             else:
                 print('ERROR')
     else:
@@ -751,7 +789,7 @@ if a == '2':
     if b == '2':
         while True:
             print('Choose a topic: ')
-            c = input('BASIC SYNTAX = 1/VARIABLES AND DATA TYPES = 2/DATA INPUT = 3/#include = 4/cout = 5')
+            c = input('BASIC SYNTAX = 1/VARIABLES AND DATA TYPES = 2/DATA INPUT = 3/#include = 4/cout = 5/cin = 6')
             if c == '1':
                 print('BASIC SYNTAX')
                 print('Every C++ program consists of required elements.')
@@ -832,12 +870,36 @@ if a == '2':
                 print('Why learn it first:')
                 print('Without cout, a program cannot show anything to the user — it works, but stays silent.')
                 print('It is like the eyes and mouth of the program.')
+            if c == '6':
+                print('cin in C++')
+                print('What:')
+                print('The primary command for getting data from the user (keyboard input).')
+                print('Why:')
+                print('Ask the user for information')
+                print('Receive numbers, text, characters')
+                print('Create interactive programs')
+                print('Configure program behavior "on the fly"')
+                print('How it works:')
+                print('Used with the >> operator to retrieve data:')
+                print('What can be entered:')
+                print('Integers: int, short, long')
+                print('Floating-point numbers: float, double')
+                print('Characters: char')
+                print('Strings: string (but only until the first space)')
+                print('Important:')
+                print('Requires #include <iostream>')
+                print('cin — for input, cout — for output')
+                print('For strings with spaces, use getline(cin, string)')
+                print('After cin >> number, a newline character may remain in the buffer')
+                print('Why learn it right after cout:')
+                print('Without cin, a program can only display information but cannot receive it from the user.')
+                print('This makes programs dynamic and useful.')
             else:
                 print('ERROR')
     if b == '3':
         while True:
             print('Choose a topic: ')
-            c = input('console.log() = 1/let / const = 2/prompt() / alert() = 3/if - else = 4/ for = 5/document.getElementById() = 6 ')
+            c = input('console.log() = 1/let / const = 2/prompt() / alert() = 3/if - else = 4/ for = 5/document.getElementById() = 6/addEventListener() = 7 ')
             if c == '1':
                 print('console.log() — OUTPUT INFORMATION')
                 print('What it is: The very first command learned in JavaScript.')
@@ -942,6 +1004,20 @@ if a == '2':
                 print('Case-sensitive')
                 print('Why learn it first:')
                 print('This is the foundation for creating interactive websites. Without this command, JavaScript cannot interact with page elements.')
+            if c == '7':
+                print('addEventListener() in JavaScript')
+                print('What:')
+                print('Binding reactions to user actions.')
+                print('Why:')
+                print('To make websites interactive, responsive to clicks and other actions.')
+                print('How:')
+                print('A "listener" waits for an event (click, key press) and triggers a function.')
+                print('Events:')
+                print('Mouse click, hover, key press, form submission.')
+                print('Important:')
+                print('Better than the old onclick method, can add multiple reactions to one action.')
+                print('Why learn it:')
+                print('Without events, a website is just a picture. With them — it’s a living application.')
             else:
                 print('ERROR')
     else:
