@@ -18,6 +18,8 @@
 
 Обновление 5.2: + 1 команда для C++. + 1 команда для JavaScript
 
+ОБНОВЛЕНИЕ 6: + 1 команда для JavaScript. Добавлены задачи с решением для JavaScript
+
 
 Interactive console reference for Python, C++ and JavaScript fundamentals. The program sequentially teaches basic commands of three popular programming languages. Currently contains 3 key commands for each language, structured for beginners. The reference is constantly updated with new topics and features.
 
@@ -30,6 +32,8 @@ Update 3: + 2 commands for Python. + 1 command for JavaScript. + 1 command for C
 Update 4: Added learning tasks with solutions for Python
 
 Update 5: Fixed visual bugs. + 2 tasks for Python. + 1 command for JavaScript
+
+UPDATE 6: + 1 command for JavaScript. Added tasks with solutions for JavaScript
 
 NOW THERE WILL BE SMALL UPDATES WHICH WILL BE MUCH MORE FREQUENT THAN THE MAIN UPDATES!
 
