@@ -383,7 +383,7 @@ if a == '1':
     if b == '3':
         while True:
             print('Выберите тему: ')
-            c = input('console.log() = 1/let / const = 2/prompt() / alert() = 3/ if - else = 4/for = 5/ document.getElementById() = 6/addEventListener() = 7')
+            c = input('console.log() = 1/let / const = 2/prompt() / alert() = 3/ if - else = 4/for = 5/ document.getElementById() = 6/addEventListener() = 7/querySelector() = 8/задачи на праткику - practice')
             if c == '1':
                 print('console.log() — ВЫВОД ИНФОРМАЦИИ')
                 print('Что это: Самая первая команда, которую изучают в JavaScript.')
@@ -502,6 +502,58 @@ if a == '1':
                 print('Лучше старого способа onclick, можно добавлять несколько реакций на одно действие.')
                 print('Зачем учить:')
                 print('Без событий сайт — просто картинка. С ними — живое приложение.')
+            if c == '8':
+                print('querySelector() в JavaScript')
+                print('Что:')
+                print('Универсальный способ найти любой элемент на странице.')
+                print('Зачем:')
+                print('Искать элементы по CSS-селекторам (класс, тег, ID, атрибут).')
+                print('Как:')
+                print('document.querySelector(".класс") находит первый подходящий элемент.')
+                print('Что можно искать:')
+                print('Классы: .myClass')
+                print('ID: #myId')
+                print('Теги: div, p')
+                print('Важно:')
+                print('Находит только первый элемент.')
+                print('Для всех элементов используй querySelectorAll().')
+                print('Почему лучше getElementById:')
+                print('Может искать по любым CSS-селекторам, а не только по ID.')
+            if c == 'practice':
+                print('Выберите задачу: ')
+                k = input('ВЫВЕСТИ ПРИВЕТСТВИЕ = 1/ СОЗДАТЬ ПЕРЕМЕННУЮ = 2/ СПРОСИТЬ ИМЯ = 3/ ПРОВЕРИТЬ ЧИСЛО = 4')
+                if k == '1':
+                    print('ВЫВЕСТИ ПРИВЕТСТВИЕ')
+                    print('Цель: Освоить базовый вывод информации в консоль браузера.')
+                    print('Что изучается: Функция console.log() — основной инструмент отладки и вывода в JavaScript.')
+                    input('Для проверки и получениия готового кода нажмите Enter')
+                    print('console.log("Hello World!");')
+                if k == '2':
+                    print('СОЗДАТЬ ПЕРЕМЕННУЮ')
+                    print('Цель: Научиться создавать и использовать переменные для хранения данных.')
+                    print('Что изучается: Ключевое слово let для объявления переменных, присваивание значений')
+                    input('Для проверки и получениия готового кода нажмите Enter')
+                    print('let age = 20;')
+                    print('console.log(age);')
+                if k == '3':
+                    print('СПРОСИТЬ ИМЯ')
+                    print('Цель: Понять, как взаимодействовать с пользователем через диалоговые окна.')
+                    print('Что изучается: Функции prompt() для получения ввода и alert() для вывода сообщений.')
+                    input('Для проверки и получениия готового кода нажмите Enter')
+                    print('let name = prompt("Как тебя зовут?");')
+                    print('alert("Привет, " + name + "!");')
+                if k == '4':
+                    print('ПРОВЕРИТЬ ЧИСЛО')
+                    print('Цель: Освоить базовые условные конструкции для принятия решений в коде.')
+                    print('Что изучается: Оператор if-else, сравнение чисел, логические выражения.')
+                    input('Для проверки и получениия готового кода нажмите Enter')
+                    print('if (10 > 5) {')
+                    print(' console.log("Да, 10 больше 5");')
+                    print('} else {')
+                    print(' console.log("Нет");')
+                    print('}')
+
+
             else:
                 print('ERROR')
     else:
@@ -899,7 +951,7 @@ if a == '2':
     if b == '3':
         while True:
             print('Choose a topic: ')
-            c = input('console.log() = 1/let / const = 2/prompt() / alert() = 3/if - else = 4/ for = 5/document.getElementById() = 6/addEventListener() = 7 ')
+            c = input('console.log() = 1/let / const = 2/prompt() / alert() = 3/if - else = 4/ for = 5/document.getElementById() = 6/addEventListener() = 7/practical tasks = practice/querySelector() = 8 ')
             if c == '1':
                 print('console.log() — OUTPUT INFORMATION')
                 print('What it is: The very first command learned in JavaScript.')
@@ -1018,6 +1070,58 @@ if a == '2':
                 print('Better than the old onclick method, can add multiple reactions to one action.')
                 print('Why learn it:')
                 print('Without events, a website is just a picture. With them — it’s a living application.')
+            if c == '8':
+                print('querySelector() in JavaScript')
+                print('What:')
+                print('A universal way to find any element on a page.')
+                print('Why:')
+                print('To search for elements using CSS selectors (class, tag, ID, attribute).')
+                print('How:')
+                print('document.querySelector(".class") finds the first matching element.')
+                print('What you can search for:')
+                print('Classes: .myClass')
+                print('IDs: #myId')
+                print('Tags: div, p')
+                print('Important:')
+                print('Finds only the first element.')
+                print('Use querySelectorAll() for all elements.')
+                print('Why it’s better than getElementById:')
+                print('Can search by any CSS selector, not just ID.')
+            if c == 'practice':
+                print('Select a task:')
+                k = input('PRINT GREETING = 1 / CREATE VARIABLE = 2 / ASK NAME = 3 / CHECK NUMBER = 4')
+                if k == '1':
+                    print('PRINT GREETING')
+                    print('Goal: Master basic output to the browser console.')
+                    print(
+                        'What is learned: The console.log() function — the main debugging and output tool in JavaScript.')
+                    input('Press Enter to check and get the ready code')
+                    print('console.log("Hello World!");')
+                if k == '2':
+                    print('CREATE VARIABLE')
+                    print('Goal: Learn to create and use variables to store data.')
+                    print('What is learned: The let keyword for declaring variables, assigning values')
+                    input('Press Enter to check and get the ready code')
+                    print('let age = 20;')
+                    print('console.log(age);')
+                if k == '3':
+                    print('ASK NAME')
+                    print('Goal: Understand how to interact with users through dialog boxes.')
+                    print(
+                        'What is learned: The prompt() function for receiving input and alert() for displaying messages.')
+                    input('Press Enter to check and get the ready code')
+                    print('let name = prompt("What is your name?");')
+                    print('alert("Hello, " + name + "!");')
+                if k == '4':
+                    print('CHECK NUMBER')
+                    print('Goal: Master basic conditional statements for decision-making in code.')
+                    print('What is learned: The if-else operator, number comparison, logical expressions.')
+                    input('Press Enter to check and get the ready code')
+                    print('if (10 > 5) {')
+                    print(' console.log("Yes, 10 is greater than 5");')
+                    print('} else {')
+                    print(' console.log("No");')
+                    print('}')
             else:
                 print('ERROR')
     else:

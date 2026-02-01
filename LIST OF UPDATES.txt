@@ -17,6 +17,8 @@
 
 Обновление 5.2: + 1 команда для C++. + 1 команда для JavaScript
 
+ОБНОВЛЕНИЕ 6: + 1 команда для JavaScript. Добавлены задачи с решением для JavaScript
+
 LIST OF UPDATES
 
 Update 1: +2 commands for Python.
@@ -34,3 +36,5 @@ NOW THERE WILL BE SMALL UPDATES WHICH WILL BE MUCH MORE FREQUENT THAN THE MAIN U
 Update 5.1: + 1 command for Python. + 1 command for C++
 
 Update 5.2: + 1 command for C++. + 1 command for JavaScript
+
+UPDATE 6: + 1 command for JavaScript. Added tasks with solutions for JavaScript
