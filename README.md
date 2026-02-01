@@ -33,10 +33,10 @@ Update 4: Added learning tasks with solutions for Python
 
 Update 5: Fixed visual bugs. + 2 tasks for Python. + 1 command for JavaScript
 
-UPDATE 6: + 1 command for JavaScript. Added tasks with solutions for JavaScript
-
 NOW THERE WILL BE SMALL UPDATES WHICH WILL BE MUCH MORE FREQUENT THAN THE MAIN UPDATES!
 
 Update 5.1: + 1 command for Python. + 1 command for C++
 
 Update 5.2: + 1 command for C++. + 1 command for JavaScript
+
+UPDATE 6: + 1 command for JavaScript. Added tasks with solutions for JavaScript
