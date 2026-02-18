@@ -2,7 +2,7 @@ print("Select a language/Выберите язык")
 a = input('Eng=2/Рус=1: ')
 if a == '1':
     print('Выберите язык программирования, азы которого вы хотите узнать ')
-    b = input('Python = 1/C++ = 2/JavaScript = 3')
+    b = input('Python = 1/C++ = 2/JavaScript = 3/Java = 4')
     if b == '1':
         while True:
             print('Выберите тему: ')
@@ -552,6 +552,39 @@ if a == '1':
                     print('} else {')
                     print(' console.log("Нет");')
                     print('}')
+    if b == '4':
+        while True:
+            print('Выберите тему: ')
+            c = input('System.out.println() = 1/ ПЕРЕМЕННЫЕ (int, String) = 2/ main — ТОЧКА ВХОДА = 3')
+            if c == '1':
+                print('System.out.println()')
+                print('Выводит информацию на экран.')
+                print('Внутри скобок текст в кавычках или переменные.')
+                print('После вывода переходит на новую строку.')
+                print('Точка с запятой в конце обязательна;')
+                print('Регистр важен.')
+                print('Без этой команды программа молчит.')
+                print('Самое начало любого кода.')
+            if c == '2':
+                print('ПЕРЕМЕННЫЕ (int, String)')
+                print('Ячейки для хранения данных.')
+                print('int для целых чисел.')
+                print('String для текста.')
+                print('Сначала тип, потом имя, потом значение через равно.')
+                print('Имена с маленькой буквы.')
+                print('Тип менять нельзя.')
+                print('Нужны для запоминания информации.')
+                print('Основа любой программы.')
+            if c == '3':
+                print('main — ТОЧКА ВХОДА')
+                print('Старт программы.')
+                print('Java ищет эту строку и начинает выполнение с неё.')
+                print('Весь код пишется внутри фигурных скобок после main.')
+                print('Запись строгая:')
+                print('public static void main(String[] args).')
+                print('Без неё программа не запустится.')
+                print('Запомнить как правило.')
+
 
 
             else:
@@ -561,7 +594,7 @@ if a == '1':
 
 if a == '2':
     print('Choose a programming language you want to learn the basics of ')
-    b = input('Python = 1/C++ = 2/JavaScript = 3')
+    b = input('Python = 1/C++ = 2/JavaScript = 3/ Java = 4')
     if b == '1':
         while True:
             print('Choose a topic: ')
@@ -1124,6 +1157,38 @@ if a == '2':
                     print('}')
             else:
                 print('ERROR')
+    if b == '4':
+        while True:
+            print('Select a topic:')
+            c = input('System.out.println() = 1 / VARIABLES (int, String) = 2 / main — ENTRY POINT = 3')
+            if c == '1':
+                print('System.out.println()')
+                print('Outputs information to the screen.')
+                print('Inside the parentheses: text in quotes or variables.')
+                print('After output, moves to a new line.')
+                print('A semicolon at the end is mandatory.')
+                print('Case-sensitive.')
+                print('Without this command, the program is silent.')
+                print('The very beginning of any code.')
+            if c == '2':
+                print('VARIABLES (int, String)')
+                print('Containers for storing data.')
+                print('int for integers.')
+                print('String for text.')
+                print('First type, then name, then value after equals sign.')
+                print('Names start with a lowercase letter.')
+                print('Type cannot be changed.')
+                print('Needed for storing information.')
+                print('The foundation of any program.')
+            if c == '3':
+                print('main — ENTRY POINT')
+                print('Program start.')
+                print('Java looks for this line and begins execution from it.')
+                print('All code is written inside curly braces after main.')
+                print('Strict syntax:')
+                print('public static void main(String[] args).')
+                print('Without it, the program won\'t run.')
+                print('Memorize it as a rule.')
     else:
         print('ERROR')
 else:
