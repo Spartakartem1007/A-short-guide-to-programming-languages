@@ -1,6 +1,6 @@
 # A-short-guide-to-programming-languages
 
-Интерактивный консольный справочник по основам Python, C++ и JavaScript. Программа последовательно обучает базовым командам трёх популярных языков программирования. На текущий момент содержит по 3 ключевые команды для каждого языка, структурированные для начинающих. Справочник постоянно дополняется новыми темами и функциями.
+Интерактивный консольный справочник по основам Python, C++ и JavaScript. Программа последовательно обучает базовым командам трёх популярных языков программирования. Справочник постоянно дополняется новыми темами и функциями.
 
 обновление 1: + 2 команды для Python.
 
@@ -20,8 +20,10 @@
 
 ОБНОВЛЕНИЕ 6: + 1 команда для JavaScript. Добавлены задачи с решением для JavaScript
 
+ОБНОВЛЕНИЕ 7: Добавлен новый язык программирования - Java. + 3 темы в языке Java
 
-Interactive console reference for Python, C++ and JavaScript fundamentals. The program sequentially teaches basic commands of three popular programming languages. Currently contains 3 key commands for each language, structured for beginners. The reference is constantly updated with new topics and features.
+
+Interactive console reference for Python, C++ and JavaScript fundamentals. The program sequentially teaches basic commands of three popular programming languages.  The reference is constantly updated with new topics and features.
 
 Update 1: +2 commands for Python.
 
@@ -40,3 +42,5 @@ Update 5.1: + 1 command for Python. + 1 command for C++
 Update 5.2: + 1 command for C++. + 1 command for JavaScript
 
 UPDATE 6: + 1 command for JavaScript. Added tasks with solutions for JavaScript
+
+UPDATE 7: Added a new programming language - Java. + 3 topics in the Java language
